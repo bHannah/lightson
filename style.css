@@ -23,12 +23,12 @@ footer{
     aspect-ratio: 1;
     border-radius: 100%;
     border: 1px solid brown;
-    color: #ffdee9;
+    background-color: #ffdee9;
 }
 
 .felkapcsolva{
     aspect-ratio: 1;
     border-radius: 100%;
     border: 1px solid brown;
-    color: rgb(255, 59, 117);
+    background-color: rgb(255, 59, 117);
 }
