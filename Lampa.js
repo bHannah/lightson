@@ -32,7 +32,7 @@ export default class Lampa{
             txt += `<div class="lekapcsolva"></div>`
         }
         this.#szuloElem.append(txt);
-    }
+    }   
 
     get allapot(){
         return this.#allapot;

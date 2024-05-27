@@ -3,7 +3,7 @@ import Lampa from "./Lampa.js";
 export default class Jatekter{
     //adattagok
     #meret;
-    #lista=[false,false,false,false,false,false,false,false,false];
+    #lista=[" "," "," "," "," "," "," "," "," "];
 
     constructor(meret){
         this.#meret = meret
@@ -14,10 +14,9 @@ export default class Jatekter{
     #megjelenit(){
         let szuloElem = $(".jatek");
         szuloElem.empty();
-        for (let i = 0; i < this.#meret*this.#meret; i++) {
-            new Lampa(szuloElem, i);
-            this.#lista[i] = Lampa.allapot;
-            console.log(Lampa.allapot)
-        }
+        this.#lista.forEach((ertek, index)=>{
+            this.#lista[index] = new Lampa(szuloElem, index);
+        });
+        console.log(this.#lista);
     }
 }
