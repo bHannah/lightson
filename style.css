@@ -3,3 +3,32 @@ body{
     width: 800px;
     text-align: center;
 }
+
+footer{
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.jatek{
+    margin: auto;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.lekapcsolva{
+    aspect-ratio: 1;
+    border-radius: 100%;
+    border: 1px solid brown;
+    color: #ffdee9;
+}
+
+.felkapcsolva{
+    aspect-ratio: 1;
+    border-radius: 100%;
+    border: 1px solid brown;
+    color: rgb(255, 59, 117);
+}
