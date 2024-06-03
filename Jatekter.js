@@ -6,7 +6,7 @@ export default class Jatekter{
     #lista=[" "," "," "," "," "," "," "," "," "];
 
     constructor(meret){
-        this.#meret = meret
+        this.#meret = meret;
         this.#megjelenit();
     }
     

@@ -16,7 +16,7 @@ export default class Lampa{
     //tagfüggvények
     #allapotMegadas(){
         let randomszam = Math.floor(Math.random()*100)+1;
-        if(randomszam < 21){
+        if(randomszam < 31){
             this.#allapot = true;
         }
         else{
